@@ -9,6 +9,6 @@
     <string name="editTextTextPersonName">Phone Number</string>
     <string name="login_password_input">Password</string>
     <string name="forget_password_link">Forgot Password</string>
-
+    <string name="login_btn">Login</string>
 
 </resources>
