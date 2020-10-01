@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124383827950",
+    "firebase_url": "https://dreammartdb.firebaseio.com",
+    "project_id": "dreammartdb",
+    "storage_bucket": "dreammartdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124383827950:android:3f0b33ef9b320f61d5a0ff",
+        "android_client_info": {
+          "package_name": "com.example.dreammart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124383827950-jt5ihk2muvfiqqchb3285kvm08oth76m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dreammart",
+            "certificate_hash": "f46b8948de75b8d293965028625edd0dec5d6c0e"
+          }
+        },
+        {
+          "client_id": "124383827950-6fodc07m1ft1ka5ce1fsn3dpjblc88e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7WfGrLerXAktli7U35njYIhJltpACf7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124383827950-6fodc07m1ft1ka5ce1fsn3dpjblc88e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
