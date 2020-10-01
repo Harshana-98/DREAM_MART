@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_search_products"></activity>
+        <activity android:name=".activity_settings"></activity>
+        <activity android:name=".activity_search_products" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ConfirmFinalOrderActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
