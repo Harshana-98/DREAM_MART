@@ -61,4 +61,21 @@
         android:textColor="#FBFBFB"
         android:textSize="19sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forget_password_link"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="202dp"
+        android:text="@string/forget_password_link"
+        android:textColor="#FDFDFD" />
+
+
 </RelativeLayout>

@@ -8,5 +8,7 @@
     <string name="register_btn">Create Account</string>
     <string name="editTextTextPersonName">Phone Number</string>
     <string name="login_password_input">Password</string>
+    <string name="forget_password_link">Forgot Password</string>
+
 
 </resources>
