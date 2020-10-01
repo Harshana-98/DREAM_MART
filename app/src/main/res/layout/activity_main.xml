@@ -49,15 +49,15 @@
         app:layout_constraintVertical_bias="0.956" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/app_slogan"
         android:layout_width="390dp"
         android:layout_height="166dp"
         app:layout_constraintBottom_toTopOf="@+id/app_logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942"
+        app:layout_constraintVertical_bias="0.796"
         app:srcCompat="@drawable/head_img" />
 
 

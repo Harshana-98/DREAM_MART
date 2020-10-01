@@ -6,5 +6,6 @@
     <string name="register_phone_number_input">Phone Number</string>
     <string name="register_password_input">Password</string>
     <string name="register_btn">Create Account</string>
+    <string name="editTextTextPersonName">Phone Number</string>
 
 </resources>
