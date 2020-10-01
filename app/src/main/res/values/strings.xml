@@ -4,5 +4,6 @@
     <string name="main_login_btn">Already have an Account? Login</string>
     <string name="register_username_input">Name</string>
     <string name="register_phone_number_input">Phone Number</string>
+    <string name="register_password_input">Password</string>
 
 </resources>

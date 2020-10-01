@@ -7,15 +7,15 @@
 
     <EditText
         android:id="@+id/register_username_input"
-        android:layout_width="234dp"
-        android:layout_height="wrap_content"
+        android:layout_width="246dp"
+        android:layout_height="58dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="89dp"
-        android:layout_marginTop="305dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="76dp"
         android:layout_marginBottom="371dp"
         android:background="@drawable/input_design"
         android:ems="10"
@@ -27,15 +27,15 @@
 
     <EditText
         android:id="@+id/register_phone_number_input"
-        android:layout_width="wrap_content"
-        android:layout_height="62dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="89dp"
         android:layout_marginTop="400dp"
-        android:layout_marginEnd="91dp"
+        android:layout_marginEnd="72dp"
         android:layout_marginBottom="269dp"
         android:background="@drawable/input_design"
         android:ems="10"
@@ -44,4 +44,23 @@
         android:padding="12dp"
         android:textSize="19sp"
         android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="499dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="@string/register_password_input"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="19sp" />
 </RelativeLayout>
