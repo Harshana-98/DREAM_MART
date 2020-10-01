@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DreamMart</string>
+    <string name="main_join_now_btn">Join Now</string>
 </resources>
