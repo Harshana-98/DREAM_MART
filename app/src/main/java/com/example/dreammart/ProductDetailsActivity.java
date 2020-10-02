@@ -66,7 +66,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
         super.onStart();
         CheckOrderState();
     }
-
+  //aa
     private void addingToCartList() {
         String saveCurrentTime,saveCurrentDate;
         Calendar calForDate = Calendar.getInstance();
