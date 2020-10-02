@@ -44,7 +44,6 @@ dependencies {
     // For loading and tinting drawables on older versions of the platform
     implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'androidx.drawerlayout:drawerlayout:1.1.1'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
