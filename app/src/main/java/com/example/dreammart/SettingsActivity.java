@@ -122,7 +122,7 @@ public class SettingsActivity extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(this, "Error, Try Again.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please Try Again.", Toast.LENGTH_SHORT).show();
 
             startActivity(new Intent(SettingsActivity.this, SettingsActivity.class));
             finish();
@@ -140,17 +140,19 @@ public class SettingsActivity extends AppCompatActivity {
         }
         else if (TextUtils.isEmpty(addressEditText.getText().toString()))
         {
-            Toast.makeText(this, "Name is address.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Address is mandatory", Toast.LENGTH_SHORT).show();
         }
         else if (TextUtils.isEmpty(userPhoneEditText.getText().toString()))
         {
-            Toast.makeText(this, "Name is mandatory.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Phone is mandatory.", Toast.LENGTH_SHORT).show();
         }
         else if(checker.equals("clicked"))
         {
             uploadImage();
         }
     }
+
+
 
     private void uploadImage() {
         final ProgressDialog progressDialog = new ProgressDialog(this);
@@ -161,9 +163,9 @@ public class SettingsActivity extends AppCompatActivity {
         if (imageUri != null)
         {
             final StorageReference fileRef = storageProfilePrictureRef
-                    .child(Prevalent.currentOnlineUser.getPhone() + ".jpg");
+                    .child(Prevalent.currentOnlineUser.getPhone() + ".jpg"); //the image file is jpg
 
-            uploadTask = fileRef.putFile(imageUri);
+            uploadTask = fileRef.putFile(imageUri); //save the file to the storage
             uploadTask.continueWithTask(new Continuation() {
                 @Override
                 public Object then(@NonNull Task task) throws Exception {
@@ -184,17 +186,17 @@ public class SettingsActivity extends AppCompatActivity {
                         HashMap<String, Object> userMap = new HashMap<>();
                         userMap. put("name", fullNameEditText.getText().toString());
                         userMap. put("address", addressEditText.getText().toString());
-                        userMap. put("phoneOrder", userPhoneEditText.getText().toString());
+                        userMap. put("phoneOrder", userPhoneEditText.getText().toString()); //number to contact the user
                         userMap. put("image", myUrl);
                         ref.child(Prevalent.currentOnlineUser.getPhone()).updateChildren(userMap);
                         progressDialog.dismiss();
                         startActivity(new Intent(SettingsActivity.this, HomeActivity.class));
-                        Toast.makeText(SettingsActivity.this, "Profile Info update successfully.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SettingsActivity.this, "Profile Information update successfully.", Toast.LENGTH_SHORT).show();
                         finish();
                     }
                     else{
                         progressDialog.dismiss();
-                        Toast.makeText(SettingsActivity.this, "Error.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SettingsActivity.this, "Error.", Toast.LENGTH_SHORT).show(); //in case of an error
                     }
                 }
             });
