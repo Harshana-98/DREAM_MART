@@ -38,5 +38,24 @@
         android:textSize="20dp"
         android:visibility="gone"
         />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r111"
+        android:layout_above="@+id/next_btn"
+     />
 
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_light"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+
+
+        />
 </RelativeLayout>
